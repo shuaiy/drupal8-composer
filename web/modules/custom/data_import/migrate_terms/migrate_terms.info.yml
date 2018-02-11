@@ -1,0 +1,13 @@
+type: module
+name: Migrate Terms
+description: 'Migrate cars info make model and year etc.'
+package: Examples
+# core: 8.x
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
+  - drupal:menu_ui
+  - drupal:path
+
+core: '8.x'
+project: 'migrate_terms'
